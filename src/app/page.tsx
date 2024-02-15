@@ -1,7 +1,9 @@
+import CreateForm from "@/Copunents/CreateForm";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Crud</h1>
+    <div className="flex justify-center">
+      <CreateForm />
     </div>
   );
 }
